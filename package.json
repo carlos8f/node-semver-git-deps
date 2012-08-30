@@ -1,0 +1,26 @@
+{
+  "name": "versioned",
+  "version": "0.0.0",
+  "description": "Use semver ranges with git URL dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/node-versioned.git"
+  },
+  "keywords": [
+    "semver",
+    "git",
+    "version",
+    "dependencies",
+    "range",
+    "private"
+  ],
+  "author": "Carlos Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "middler": "git://github.com/carlos8f/node-middler.git#~0.2.0"
+  }
+}
